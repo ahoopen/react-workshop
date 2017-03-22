@@ -22,3 +22,4 @@ COPY . /usr/app
 VOLUME /usr/app/node_modules
 
 CMD yarn run start
+
