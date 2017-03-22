@@ -2,19 +2,23 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
-const ipsumText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.';
+/**
+ * Create a counter that increments the count state by 1 when clicked.
+ */
 
-class JSX extends Component {
+class Counter extends Component {
+
+    state = {};
 
     render() {
         return (
             <div>
-                // your solution here
+                <button type="button">increment</button>
             </div>
-        );
+        )
     }
 }
 
-ReactDOM.render(<JSX/>,
+ReactDOM.render(<Counter/>,
     document.getElementById('implementation')
 );
