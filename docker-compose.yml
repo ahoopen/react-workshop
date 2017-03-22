@@ -2,7 +2,7 @@ version: "2"
 services:
     workshop:
         build: .
-        image: registry.ecom.ahold.com:443/react-workshop
+        image: registry.ecom.ahold.nl:443/react-workshop
         environment:
             - HOST=0.0.0.0
         volumes:
