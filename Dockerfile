@@ -1,4 +1,4 @@
-FROM node:7.7.2
+FROM node:5.5.0
 
 ENV http_proxy=http://newproxy.ah.nl:8080
 ENV https_proxy=http://newproxy.ah.nl:8080
