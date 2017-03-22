@@ -11,10 +11,6 @@ import './style.css';
  */
 class Verdict extends Component {
 
-    state = {
-        won: false
-    };
-
     render() {
         return (
             <div>
