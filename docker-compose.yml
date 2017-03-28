@@ -1,0 +1,12 @@
+version: "2"
+services:
+    workshop:
+        build: .
+        image: registry.ecom.ahold.nl:443/react-workshop
+        environment:
+            - HOST=0.0.0.0
+        volumes:
+            - .:/usr/app
+        ports:
+            - 3000:3000
+        command: yarn run start
